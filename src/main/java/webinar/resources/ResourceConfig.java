@@ -1,6 +1,5 @@
 package webinar.resources;
 
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 import webinar.resources.hello.HelloResource;
 

@@ -1,12 +1,8 @@
 package webinar;
 
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.actuate.health.Status;
 import org.springframework.boot.test.IntegrationTest;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.boot.test.TestRestTemplate;
@@ -21,7 +17,7 @@ import  webinar.DemoApplicationIntegrationTests.TestConfiguration;
 import static junit.framework.TestCase.assertTrue;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = {DemoApplication.class, TestConfiguration.class})
+@SpringApplicationConfiguration(classes = {HelloApplication.class, TestConfiguration.class})
 @WebAppConfiguration
 @IntegrationTest({"server.port=0", "management.port=0"})
 public class DemoApplicationIntegrationTests {

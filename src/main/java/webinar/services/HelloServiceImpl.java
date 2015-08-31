@@ -1,4 +1,4 @@
-package webinar;
+package webinar.services;
 
 import org.springframework.stereotype.Service;
 

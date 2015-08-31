@@ -1,6 +1,5 @@
 package webinar;
 
-import org.apache.catalina.servlets.WebdavServlet;
 import org.h2.server.web.WebServlet;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,10 +13,10 @@ import org.springframework.context.annotation.Profile;
 // This makes sure is registered as a spring bean.
 // So that then AutoWiring in the HelloCommandLine will work
 @EnableConfigurationProperties(HelloProperties.class)
-public class DemoApplication {
+public class HelloApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(HelloApplication.class, args);
     }
 
     @Bean

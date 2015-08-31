@@ -3,7 +3,7 @@ package webinar.resources.hello;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import webinar.HelloProperties;
-import webinar.HelloService;
+import webinar.services.HelloService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.constraints.NotNull;
@@ -43,7 +43,7 @@ public class HelloResource {
     }
 
 //    @GET
-//    public Greeting getGreeting(@DefaultValue("") @QueryParam("to") String to) {
+//    templates Greeting getGreeting(@DefaultValue("") @QueryParam("to") String to) {
 //
 //        String hello = service.getGreeting(properties.getTemplate(), properties.getFrom(), properties.getTarget());
 //        Greeting greeting = new Greeting(hello);
@@ -53,11 +53,11 @@ public class HelloResource {
 
 //    @GET
 //    @Path("/{id}")
-//    public Greeting getGreeting(@PathParam("to") String to) {
+//    templates Greeting getGreeting(@PathParam("to") String to) {
 //    }
 
 //    @POST
-//    public void post(@QueryParam("name") String name) {
+//    templates void post(@QueryParam("name") String name) {
 //    }
 
 }

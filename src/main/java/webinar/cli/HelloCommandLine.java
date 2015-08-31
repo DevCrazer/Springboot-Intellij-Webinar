@@ -1,10 +1,10 @@
-package webinar.commandline;
+package webinar.cli;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Service;
 import webinar.HelloProperties;
-import webinar.HelloService;
+import webinar.services.HelloService;
 
 import javax.validation.constraints.NotNull;
 

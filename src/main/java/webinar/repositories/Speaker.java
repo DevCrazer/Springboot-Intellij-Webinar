@@ -1,4 +1,4 @@
-package webinar.speaker;
+package webinar.repositories;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

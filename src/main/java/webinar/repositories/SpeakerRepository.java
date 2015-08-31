@@ -1,4 +1,4 @@
-package webinar.speaker;
+package webinar.repositories;
 
 import java.util.Collection;
 
